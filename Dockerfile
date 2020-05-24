@@ -6,7 +6,8 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update && DEBIAN_FRONTEND=noninteract
   wget \
   git \
   zip \
-  jq
+  jq \
+  build-essential
 
 
 COPY *.sh /
